@@ -9,25 +9,25 @@ int main()
 			if(score>=0){
 				if(score >= 68){
 					if (score >= 85){
-						printf("A\n");
+						printf("%d(A)\n",score);
 						a++;
 						
 					}
 					else if(score >= 75){
-						printf("B\n%d to A\n",85-score);
+						printf("%d(B)\n",score);
 						b++;
 					}
 					else if(score >= 68){
-						printf("C\n%d to B\n",75-score);
+						printf("%d(C)\n",score);
 						c++;
 					}
 				}else{
 					if (score >= 55){
-						printf("D\n%d to C\n",68-score);
+						printf("%d(D)\n",score);
 						d++;
 					}
 					else {
-						printf("F\n%d to D\n",55-score);
+						printf("%d(F)\n",score);
 						f++;
 					}
 				}
