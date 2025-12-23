@@ -27,7 +27,7 @@ int main()
 					}
 				}
 			}else{
-				break;
+				printf("error score\n");
 			}
 		}else{
 			printf("error score\n");
